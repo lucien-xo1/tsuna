@@ -379,8 +379,8 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-3 mb-4 md:mb-0" data-testid="footer-logo">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-                <Bot className="text-white h-4 w-4" />
+              <div className="w-8 h-8 rounded-lg overflow-hidden ring-1 ring-primary/20">
+                <img src={tsunaAvatar} alt="Tsuna Bot" className="w-full h-full object-cover" />
               </div>
               <span className="text-xl font-bold gradient-text">Tsuna</span>
             </div>
